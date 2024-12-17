@@ -30,15 +30,15 @@ def bomb():
     print("Changed directory to target folder.")
     sleep(0.5)
 
-    os.mkdir("SIMA")
+    os.mkdir("SACMA")
     print("New folder made.")
     sleep(0.5)
 
-    os.chdir("SIMA")
+    os.chdir("SACMA")
     print("Changed directory to new folder.")
     sleep(0.5)
 
-    with open("SIMA Balls", "w+") as fd:
+    with open("SACMA Balls", "w+") as fd:
         fd.write("Gottem, baby!\n")
         fd.write("This is just a joke, worry not about it.\n")
         fd.write("Soon, you'll see me make amazing Python programs like these.\n")
